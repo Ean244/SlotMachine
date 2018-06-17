@@ -1,0 +1,8 @@
+name: SlotMachine
+version: 3.8
+main: com.gmail.ianlim224.slotmachine.SlotMachine
+author: Ean224
+commands:
+  slotmachine:
+    description: main command
+    usage: Wrong usage, do /bet for help

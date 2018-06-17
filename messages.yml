@@ -1,0 +1,20 @@
+#
+#
+#       configure this file to modify the
+#          messages sent to players
+#
+#
+#The prefix for all messages
+#Remember to put a space after the prefix
+prefix: "&6[&bSlotMachine&6] "
+#Error message when player inputs incorrect command
+error_msg: "&cWrong usage: do &e/slotm help &cfor help!"
+#Insufficient money when player's balance is less than the bet amount
+not_enough_money: "&c&lYou do not have enough money!"
+#Win message when player wins
+#Use %money% as money placeholder
+win_msg: "&eCongrats! You have won &c$%money% &efrom the bet!"
+#Message sent when a player loses
+lose_msg: "&cSorry, better luck next time"
+#Message sent when player executes the slot machine
+msg_money_taken: "&e$%money% &2has been taken from your account, you now have &e$%balance%"

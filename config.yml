@@ -1,0 +1,58 @@
+#
+#
+#                <--- SLOT MACHINE --->
+#             Created by Ean224, version 1.0
+#
+#           Please refer to Spigot page to know more
+#                     about this plugin
+#
+#           If you still have any questions, feel
+#                  free to pm me on Spigot
+#
+#
+#checks for updates
+auto_update: true
+#Sets the default and minimum bet price
+#This value will also effect the value of increase and decrease per press
+bet_price: 50
+#materials in slot machine
+#insert block id
+material:
+    material1: DIAMOND
+    material2: IRON_INGOT
+    material3: COAL
+#Multipliers for the materials
+#Players who won are rewarded relative to multipliers
+#example: if a player won with material1 three in a row the player would recieve 
+#an amount of money which is equal to (amount bet) * (material1 multiplier)
+#REMEMBER: multiplier1 is for material1, multiplier2 is for material2...
+multiplier:
+    multiplier1: 4
+    multiplier2: 2
+    multiplier3: 1
+#Sound effects
+UI_CLICK: true
+POP_SOUND: true
+#Configures the name of the inventory
+select_menu_name: '&1Setup a bet'
+slotmachine_menu_name: '&6&LSLOT MACHINE'
+help_menu_name: '&1&lSLOTMACHINE HELP MENU'
+mysql:
+    allow_mysql: false
+    ip: '0.0.0.0:0000'
+    database_name: 'slotmachine'
+    username: 'user'
+    password: '1234'
+max_bet_amount: 1000
+#probability of winning (range from 0 to 1)
+winning-probability: 0.5
+#probability of winning what item (range from 0 to 1)
+#WARNING: all should add up to be 1
+item-probability:
+    material1: 0.2
+    material2: 0.3
+    material3: 0.5
+#custom aliases here
+aliases:
+  - 'slotmachine'
+  - ''
